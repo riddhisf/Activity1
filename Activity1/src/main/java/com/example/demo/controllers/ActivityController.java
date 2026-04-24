@@ -17,10 +17,12 @@ public class ActivityController {
 	public String getActivity2() {
 		return "Hello from Riddhi!!";
 	}
+  
 	@GetMapping("/ishank")
 	public String getActivity3() {
 		return "Hello from Ishank!!";
 	}
+  
 	@GetMapping("/tryambakesh-satish")
 	public String test() {
 		return "Hello from Tryambakesh Satish!";
