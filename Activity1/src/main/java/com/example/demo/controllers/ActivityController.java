@@ -12,4 +12,9 @@ public class ActivityController {
 	public String getActivity() {
 		return "Hello from Chirag!!";
 	}
+
+	@GetMapping("/riddhi")
+	public String getActivity() {
+		return "Hello from Riddhi!!";
+	}
 }
