@@ -21,5 +21,9 @@ public class ActivityController {
 	public String getActivity() {
 		return "Hello from Ishank!!";
 	}
+	@GetMapping("/tryambakesh-satish")
+	public String test() {
+		return "Hello from Tryambakesh Satish!";
+	}
 
 }
