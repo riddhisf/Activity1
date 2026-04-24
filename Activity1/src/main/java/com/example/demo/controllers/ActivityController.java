@@ -14,11 +14,11 @@ public class ActivityController {
 	}
 
 	@GetMapping("/riddhi")
-	public String getActivity() {
+	public String getActivity1() {
 		return "Hello from Riddhi!!";
 	}
 	@GetMapping("/ishank")
-	public String getActivity() {
+	public String getActivity2() {
 		return "Hello from Ishank!!";
 	}
 	@GetMapping("/tryambakesh-satish")
